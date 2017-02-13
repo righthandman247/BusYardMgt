@@ -1,0 +1,32 @@
+database CompanyClientInfo
+Table Companies for all companies the user represents or services
+Table Clients for all clients or school districts being serviced
+Table Employees for all employees of the companies the user represents or services
+Table Applicants for all applicants for jobs at the companies the user represents or services
+Table Streets for all streets in and around the cities applicants, employees, clients and passengers can be located or taken to
+Table Cities for all cities in and around the area applicants, employees, clients and passengers can be located or taken to
+Table States for all states in and around the area applicants, employees, clients and passengers can be located or taken to
+Table AreaCodes for all area codes
+Table ZipCodes for all zip codes
+Table Facilites for all facilities employees may work at
+Table ClientFacilities for all Client's Facilities such as schools in a district
+Table Jobs for all jobs employees may be employed as (van driver, bus driver, driver assistant or matron, secretary, manager, mechanics, etc.
+Table JobStage for all levels at a job that an employee may reach
+Table LicClass for all possible classes of license an employee may have
+Table EmpHistory for history of all changes made to Employees Data Fields
+Table ApplHistory for history of all changes made to Applicants Data Fields
+Table ClientHistory for history of all changes made to Clients Data Fields
+Table PassengerHistory for history of all changes made to Passengers Data Fields
+Table PassengerCargo for all Passengers/Cargo to be carried for Clients
+Table Stops for all stops to be made for clients 
+Table ClientRoutePieces for all Routes provided by clients
+Table CompanyRoutePieces for all Company Routes 
+Table CompanyFullRoutes for all Company Route (combined route pieces)
+Table CompanyVehicles for all company vehicles
+Table CompanyVehicleHistory for history of all changes made to Vehicle Data
+Table CompanyVehicleDriverandAssistants for history of all company employees assigned to a vehicle for each use
+Table CompanyVehicleUsageHistory for history of all company vehicles usage
+Table CompanyVehicleMaintenanceHistory for history of all maintenance of all company vehicles
+Table CompanyVehicleMileageHistory for history of all company vehicles mileage history and fuel consumption
+Table CompanyvehicleOilHistory for history of all company vehicles oil consumption
+Table CompanyVehicleLocationHistory to keep track of locations where vehicles are stored (Facility and Spot)
